@@ -140,6 +140,9 @@ set tabstop=4
 set softtabstop=4
 set clipboard=unnamed
 
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,space:.
+set list
+
 "let g:netrw_liststyle=0         " thin (change to 3 for tree)
 "let g:netrw_banner=0            " no banner
 "let g:netrw_altv=1              " open files on right
