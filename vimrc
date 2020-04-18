@@ -9,6 +9,7 @@ filetype off                  " required
 """"""""""""""""""""""""""""""
 
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=/usr/local/opt/fzf
 
 call vundle#begin()
 
