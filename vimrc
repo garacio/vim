@@ -49,7 +49,7 @@ let g:NERDTreeWinSize=42
 """"""""""""""""""""""""""""""
 " Vim Multiple Cursors
 """"""""""""""""""""""""""""""
-"let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_use_default_mapping=0
 
 let g:multi_cursor_start_word_key='<C-m>'
 
