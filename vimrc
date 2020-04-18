@@ -27,6 +27,7 @@ Plugin 'chr4/nginx.vim'
 Plugin 'pearofducks/ansible-vim', { 'do': 'cd ./UltiSnips; ./generate.py' }
 Plugin 'python-mode/python-mode', { 'branch': 'develop' }
 Plugin 'mzlogin/vim-markdown-toc'
+Plugin 'terryma/vim-multiple-cursors'
 
 call vundle#end()
 
@@ -44,6 +45,13 @@ let NERDTreeShowHidden=1
 map <C-n> :NERDTreeToggle<CR>
 nmap <C-f> :NERDTreeFind<CR>
 let g:NERDTreeWinSize=42
+
+""""""""""""""""""""""""""""""
+" Vim Multiple Cursors
+""""""""""""""""""""""""""""""
+"let g:multi_cursor_use_default_mapping=0
+
+let g:multi_cursor_start_word_key='<C-m>'
 
 """"""""""""""""""""""""""""""
 " Buffers
